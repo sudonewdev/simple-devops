@@ -1,10 +1,8 @@
 [masters]
-master.allotindialab.in ansible_host=192.168.0.242 ansible_user=root
+master.js-lab.com ansible_host=192.168.56.104 ansible_user=root
 
 [workers]
-worker1.allotindialab.in ansible_host=192.168.0.230 ansible_user=root
-worker2.allotindialab.in ansible_host=192.168.0.239 ansible_user=root
-
+worker1.js-lab.com ansible_host=192.168.56.106 ansible_user=root
 
 [all:vars]
 ansible_connection=ssh
